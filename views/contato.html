@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+<a href="/">Voltar para página inicial</a>
+    <form action="/contato" method="post">
+        <div>
+            <label for="name">Informe o seu nome:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Informe o seu email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="subject">Assunto:</label>
+            <input type="text" name="subject" id="subject" required>
+        </div>
+        <div>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+    </body>
+</html>
